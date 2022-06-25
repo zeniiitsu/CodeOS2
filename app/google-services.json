@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "958449298706",
+    "project_id": "codeos2",
+    "storage_bucket": "codeos2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958449298706:android:0d4aa4b82fa995acd157cb",
+        "android_client_info": {
+          "package_name": "com.example.codeos2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958449298706-8slcvp4b4r2ak2tk1mk68iadhc7qdj04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTJr8CQjhNKZ_VPrSbDAcEclb7RjA0n4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958449298706-8slcvp4b4r2ak2tk1mk68iadhc7qdj04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

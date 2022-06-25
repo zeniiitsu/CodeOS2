@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoPlayActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--    <TextView-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:gravity="center"-->
+        <!--        android:text=""-->
+        <!--        android:id="@+id/videoName"/>-->
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/VideoPlayerView"
+            android:layout_margin="@dimen/_4sdp"/>
+
+        <!--    <Button-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:text="Play"-->
+        <!--        android:id="@+id/btnPlay"/>-->
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_20sdp"
+            android:text="Note : Dont just Watch Video Make Notes!! or You can use notes provided in the library section"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

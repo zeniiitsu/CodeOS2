@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary_quiz"
+    tools:context=".QuizFragment">
+
+    <TextView
+        android:id="@+id/QuizTv1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_margin="@dimen/_10sdp"
+
+        android:elevation="@dimen/_5sdp"
+        android:gravity="center"
+        android:text="Test Your learning here!!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_22sdp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recviewQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/_18sdp"
+        android:layout_marginRight="@dimen/_18sdp"
+        android:layout_marginBottom="@dimen/_60sdp"/>
+
+
+
+</LinearLayout>
